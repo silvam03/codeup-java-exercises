@@ -10,8 +10,20 @@ public class HelloWorld {
         String myString = "This is my string value";
         System.out.println(myString);
 
-//        long MyNumber = 3.14;
+//        myString = 'c';
+//        myString = 3.14159;
+
+//        long MyNumber;
 //        System.out.println(MyNumber);
+//        Error: Might have not been initialized;
+//        long myNumber = 3.14;
+//        Error: Incompatible types;
+//        long myNumber = 123L;
+//        compiler uses the L to efficiently store the long variable
+//        long myNumber = 123;
+//        the long variable type does not compensate for decimal points
+//        float myNumber = 3.14;
+//        float variable types compensate for decimal points
 
 //        int x = 5;
 //        System.out.println(x++);
@@ -48,6 +60,11 @@ public class HelloWorld {
 //
 //        y -= x;
 //        System.out.println(y);
+
+
+        int reallyBigNumber = 2147483647;
+        System.out.println(reallyBigNumber++);
+        System.out.println(reallyBigNumber);
 
 
     }
