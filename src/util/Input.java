@@ -28,7 +28,7 @@ public class Input {
         try {
             return Integer.valueOf(userNum);
         } catch (NumberFormatException e) {
-            System.out.println("Invalid input, please try again!")
+            System.out.println("Invalid input, please try again!");
             return getInt();
         }
     }
